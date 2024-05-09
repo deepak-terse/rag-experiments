@@ -5,9 +5,13 @@ from langchain_community.llms.ollama import Ollama
 from utils.database import get_database
 
 PROMPT_TEMPLATE = """
-Answer the question based only on the following context only:
+Answer the question based only on the following context:
 
 {context}
+
+---
+
+Answer the question based on the above context: {question}
 """
 
 def query_data(query_text: str):
