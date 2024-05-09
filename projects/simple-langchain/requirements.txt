@@ -1,0 +1,6 @@
+langchain   # RAG Framework
+pypdf       # Document Loader
+chromadb    # Vector Storage
+pytest      # Testing Framework
+gradio      # UI library
+pathlib

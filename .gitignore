@@ -1,0 +1,4 @@
+# simple-langchain
+/projects/simple-langchain/chroma/
+/projects/simple-langchain/data/*
+!/projects/simple-langchain/data/monopoly.pdf
